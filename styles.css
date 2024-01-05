@@ -17,6 +17,15 @@ body {
     background-color: var(--dark-blue);
 }
 
+button {
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: var(--white);
+    background-color: var(--mid-blue);
+}
+
+/* header styles */
+
 header a {
     color: var(--grey);
     text-decoration: none;
@@ -42,15 +51,26 @@ header nav #logo {
     font-size: 18px;
 }
 
-button {
-    border-radius: 5px;
-    padding: 5px 20px;
-    color: var(--white);
-    background-color: var(--mid-blue);
-}
-
 #hero-section button {
     border: none;
+}
+
+/* info section styles */
+
+#random-info {
+    background-color: var(--white);
+}
+
+/* testimonial styles */
+
+#testimonial {
+    background-color: var(--grey);
+}
+
+/* call to action styles */
+
+#call-to-action {
+    background-color: var(--white);
 }
 
 #call-to-action button {
