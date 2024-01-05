@@ -4,9 +4,40 @@
     --mid-blue: #3882f6;
     --dark-blue: #1f2937;
     --grey: #e5e7eb;
-    --white: #3882f6;
+    --white: #f9faf8;
   }
 
 * {
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-blue);
+}
+
+header a {
+    color: var(--grey);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav #logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+#hero-section #hero-text {
+    color: var(--grey);
+}
+
+#hero-section #hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-section #hero-text p {
+    font-size: 18px;
 }
