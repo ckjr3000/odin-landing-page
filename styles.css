@@ -116,6 +116,25 @@ header #logo {
 
 #testimonial {
     background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 500px;
+}
+
+#testimonial blockquote {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+#testimonial cite {
+    text-align: right;
+    font-style: normal;
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
 }
 
 /* call to action styles */
