@@ -25,14 +25,21 @@ button {
 }
 
 /* header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
 
 header a {
     color: var(--grey);
     text-decoration: none;
     font-size: 18px;
+    margin: 0 10px;
 }
 
-header nav #logo {
+header #logo {
     font-size: 24px;
     font-weight: 700;
     color: var(--white);
